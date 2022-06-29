@@ -1,0 +1,31 @@
+.contact-content {
+  border-left: 1px solid #698878d5;
+  border-right: 1px solid #698878d5;
+  border-top: 1px solid #698878d5;
+  border-bottom: 1px solid #698878d5;
+  background: white;
+}
+
+.contact-content header {
+  font-size: 16pt;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 40px;
+}
+
+.contact-content p {
+  font-size: 12pt;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.contact-content Form {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.contact-content Label:after {
+  color: #e32;
+  content: " *";
+  display: inline;
+}
