@@ -24,7 +24,6 @@ function HomePage() {
               landscape. We know because we are doing the same...
             </p>
             <header></header>
-            {/* <img /> */}
             <p></p>
             <header>Contact</header>
             <p>Navigate to the contact page for more information.</p>

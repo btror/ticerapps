@@ -50,16 +50,6 @@ class AppsPageApp extends React.Component {
                 </div>
               </Col>
             </Row>
-            {/* {this.props.bottomApp ? (
-              <div>
-                <br />
-              </div>
-            ) : (
-              <div>
-                <br />
-                <hr />
-              </div>
-            )} */}
             <br />
           </Container>
         ) : (

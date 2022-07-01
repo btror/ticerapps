@@ -78,7 +78,7 @@ class AppsPageFilter extends React.Component {
 
   render() {
     return (
-      <div className="filter-container">
+      <div className="filter-content">
         <button className={this.all_btn_class} onClick={this.selectAll}>
           All
         </button>
