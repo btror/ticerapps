@@ -1,35 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.69e3eee1.chunk.css",
-    "main.js": "/static/js/main.eb019c24.chunk.js",
-    "main.js.map": "/static/js/main.eb019c24.chunk.js.map",
+    "main.css": "/static/css/main.99f10394.chunk.css",
+    "main.js": "/static/js/main.81e74b06.chunk.js",
+    "main.js.map": "/static/js/main.81e74b06.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cfac95ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.cfac95ca.js.map",
     "static/css/2.b4bef187.chunk.css": "/static/css/2.b4bef187.chunk.css",
-    "static/js/2.e5fb4cd4.chunk.js": "/static/js/2.e5fb4cd4.chunk.js",
-    "static/js/2.e5fb4cd4.chunk.js.map": "/static/js/2.e5fb4cd4.chunk.js.map",
+    "static/js/2.13f9aeef.chunk.js": "/static/js/2.13f9aeef.chunk.js",
+    "static/js/2.13f9aeef.chunk.js.map": "/static/js/2.13f9aeef.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.b4bef187.chunk.css.map": "/static/css/2.b4bef187.chunk.css.map",
-    "static/css/main.69e3eee1.chunk.css.map": "/static/css/main.69e3eee1.chunk.css.map",
-    "static/js/2.e5fb4cd4.chunk.js.LICENSE.txt": "/static/js/2.e5fb4cd4.chunk.js.LICENSE.txt",
+    "static/css/main.99f10394.chunk.css.map": "/static/css/main.99f10394.chunk.css.map",
+    "static/js/2.13f9aeef.chunk.js.LICENSE.txt": "/static/js/2.13f9aeef.chunk.js.LICENSE.txt",
     "static/media/adamfixicon.004eb862.jpg": "/static/media/adamfixicon.004eb862.jpg",
     "static/media/Promotion.css": "/static/media/allversion.d2c8082c.jpg",
-    "static/media/Banner.css": "/static/media/youtubelogo2.bc8faf74.png",
+    "static/media/appleStore.7b2c8bff.png": "/static/media/appleStore.7b2c8bff.png",
     "static/media/apportionmentDesktop.ebd2be4c.png": "/static/media/apportionmentDesktop.ebd2be4c.png",
     "static/media/apportionmentIcon.d8d650a2.png": "/static/media/apportionmentIcon.d8d650a2.png",
     "static/media/apportionmentProIcon.65b397f8.jpg": "/static/media/apportionmentProIcon.65b397f8.jpg",
+    "static/media/Banner.css": "/static/media/websiteLogov3.c88a2d8e.png",
+    "static/media/githublogowhite.a5db7b9c.png": "/static/media/githublogowhite.a5db7b9c.png",
+    "static/media/googlePlay3.e35742e2.png": "/static/media/googlePlay3.e35742e2.png",
     "static/media/AboutPage.css": "/static/media/grad_pic_2.0504a94f.jpg",
     "static/media/hamiltonmethodicon.8debe915.jpg": "/static/media/hamiltonmethodicon.8debe915.jpg",
+    "static/media/instragramlogo2.16553f9b.png": "/static/media/instragramlogo2.16553f9b.png",
     "static/media/HomePage.css": "/static/media/itemDemo.ae35e8a5.jpg",
     "static/media/jeffersonicon.e015b433.jpg": "/static/media/jeffersonicon.e015b433.jpg",
     "static/media/lengthIcon.ddb46094.png": "/static/media/lengthIcon.ddb46094.png",
-    "static/media/webstericon.b5395d9b.png": "/static/media/webstericon.b5395d9b.png"
+    "static/media/linkedinlogo.7be0d03c.png": "/static/media/linkedinlogo.7be0d03c.png",
+    "static/media/webstericon.b5395d9b.png": "/static/media/webstericon.b5395d9b.png",
+    "static/media/youtubelogo2.bc8faf74.png": "/static/media/youtubelogo2.bc8faf74.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cfac95ca.js",
     "static/css/2.b4bef187.chunk.css",
-    "static/js/2.e5fb4cd4.chunk.js",
-    "static/css/main.69e3eee1.chunk.css",
-    "static/js/main.eb019c24.chunk.js"
+    "static/js/2.13f9aeef.chunk.js",
+    "static/css/main.99f10394.chunk.css",
+    "static/js/main.81e74b06.chunk.js"
   ]
 }
