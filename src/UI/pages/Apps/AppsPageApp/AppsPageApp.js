@@ -35,7 +35,9 @@ class AppsPageApp extends React.Component {
                 </details>
 
                 <div className="app-graphic-section">
-                  <img src={this.props.appImage} alt="" />
+                  <a href={this.props.appLink}>
+                    <img src={this.props.appImage} alt="" />
+                  </a>
                 </div>
 
                 <div className="app-graphic-section">

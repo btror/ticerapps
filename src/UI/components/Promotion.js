@@ -19,7 +19,9 @@ function Promotion() {
           </Col>
 
           <Col id="middle-content" xs={3}>
-            <img alt="" />
+            <a href="https://apps.apple.com/us/app/apportionment-methods/id1603306969">
+              <img alt="" />
+            </a>
           </Col>
 
           <Col id="right-content">

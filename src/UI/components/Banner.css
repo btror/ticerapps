@@ -1,5 +1,16 @@
+.banner-content-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.col-content {
+  text-align: center;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 399px) {
-  .banner-container {
+  .banner-content {
     background: white;
     background-image: url("../../resources/images/bannerImage.jpg");
     background-size: 450px 188px;
@@ -8,7 +19,7 @@
     border-right: 1px solid #698878d5;
   }
 
-  .banner-container #logo {
+  .banner-content #logo {
     margin-top: 30px;
     width: 100px;
     height: 50px;
@@ -17,83 +28,15 @@
     border: none;
   }
 
-  .banner-container p {
+  .banner-content p {
     color: white;
     font-size: 8pt;
     margin-bottom: 50px;
   }
-
-  .banner-container #github {
-    margin-top: 11px;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/githublogowhite.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #linkedin {
-    margin-top: 11px;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/linkedinlogo.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #instagram {
-    margin-top: 11px;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/instragramlogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #youtube {
-    margin-top: 11px;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/youtubelogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #google-play {
-    margin-top: 11px;
-    margin-left: auto;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/googlePlay3.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #app-store {
-    margin-top: 11px;
-    margin-left: auto;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/appleStore.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 434px) {
-  .banner-container {
+  .banner-content {
     background: white;
     background-image: url("../../resources/images/bannerImage.jpg");
     background-size: 550px 229px;
@@ -102,7 +45,7 @@
     border-right: 1px solid #698878d5;
   }
 
-  .banner-container #logo {
+  .banner-content #logo {
     margin-top: 30px;
     width: 140px;
     height: 80px;
@@ -111,83 +54,15 @@
     border: none;
   }
 
-  .banner-container p {
+  .banner-content p {
     color: white;
     font-size: 10pt;
     margin-bottom: 50px;
   }
-
-  .banner-container #github {
-    margin-top: 11px;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/githublogowhite.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #linkedin {
-    margin-top: 11px;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/linkedinlogo.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #instagram {
-    margin-top: 11px;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/instragramlogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #youtube {
-    margin-top: 11px;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/youtubelogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #google-play {
-    margin-top: 11px;
-    margin-left: auto;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/googlePlay3.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #app-store {
-    margin-top: 11px;
-    margin-left: auto;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../resources/images/appleStore.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
 }
 
 @media only screen and (min-width: 435px) and (max-width: 565px) {
-  .banner-container {
+  .banner-content {
     background: white;
     background-image: url("../../resources/images/bannerImage.jpg");
     background-size: 565px 235px;
@@ -196,7 +71,7 @@
     border-right: 1px solid #698878d5;
   }
 
-  .banner-container #logo {
+  .banner-content #logo {
     margin-top: 30px;
     width: 160px;
     height: 90px;
@@ -205,84 +80,15 @@
     border: none;
   }
 
-  .banner-container p {
+  .banner-content p {
     color: white;
     font-size: 11pt;
     margin-bottom: 50px;
   }
-
-  .banner-container #github {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 25px;
-    height: 25px;
-    background-image: url("../../resources/images/githublogowhite.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #linkedin {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 25px;
-    height: 25px;
-    background-image: url("../../resources/images/linkedinlogo.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #instagram {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 25px;
-    height: 25px;
-    background-image: url("../../resources/images/instragramlogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #youtube {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 25px;
-    height: 25px;
-    background-image: url("../../resources/images/youtubelogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #google-play {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: 25px;
-    height: 25px;
-    background-image: url("../../resources/images/googlePlay3.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #app-store {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: 25px;
-    height: 25px;
-    background-image: url("../../resources/images/appleStore.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
 }
 
 @media only screen and (min-width: 566px) and (max-width: 767px) {
-  .banner-container {
+  .banner-content {
     background: white;
     background-image: url("../../resources/images/bannerImage.jpg");
     background-size: 770px 321px;
@@ -291,7 +97,7 @@
     border-right: 1px solid #698878d5;
   }
 
-  .banner-container #logo {
+  .banner-content #logo {
     margin-top: 30px;
     width: 230px;
     height: 140px;
@@ -300,84 +106,15 @@
     border: none;
   }
 
-  .banner-container p {
+  .banner-content p {
     color: white;
     font-size: 14pt;
     margin-bottom: 50px;
   }
-
-  .banner-container #github {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 30px;
-    height: 30px;
-    background-image: url("../../resources/images/githublogowhite.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #linkedin {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 30px;
-    height: 30px;
-    background-image: url("../../resources/images/linkedinlogo.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #instagram {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 30px;
-    height: 30px;
-    background-image: url("../../resources/images/instragramlogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #youtube {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 30px;
-    height: 30px;
-    background-image: url("../../resources/images/youtubelogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #google-play {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: 30px;
-    height: 30px;
-    background-image: url("../../resources/images/googlePlay3.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #app-store {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: 30px;
-    height: 30px;
-    background-image: url("../../resources/images/appleStore.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .banner-container {
+  .banner-content {
     background: white;
     background-image: url("../../resources/images/bannerImage.jpg");
     background-size: 1000px 400px;
@@ -386,7 +123,7 @@
     border-right: 1px solid #698878d5;
   }
 
-  .banner-container #logo {
+  .banner-content #logo {
     margin-top: 30px;
     width: 290px;
     height: 180px;
@@ -395,84 +132,15 @@
     border: none;
   }
 
-  .banner-container p {
+  .banner-content p {
     color: white;
     font-size: 14pt;
     margin-bottom: 50px;
   }
-
-  .banner-container #github {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/githublogowhite.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #linkedin {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/linkedinlogo.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #instagram {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/instragramlogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #youtube {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/youtubelogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #google-play {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/googlePlay3.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #app-store {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/appleStore.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
 }
 
 @media only screen and (min-width: 993px) {
-  .banner-container {
+  .banner-content {
     background: white;
     background-image: url("../../resources/images/bannerImage.jpg");
     background-size: 100%;
@@ -481,7 +149,7 @@
     border-right: 1px solid #698878d5;
   }
 
-  .banner-container #logo {
+  .banner-content #logo {
     margin-top: 30px;
     width: 290px;
     height: 180px;
@@ -490,103 +158,23 @@
     border: none;
   }
 
-  .banner-container p {
+  .banner-content p {
     color: white;
     font-size: 14pt;
     margin-bottom: 50px;
   }
-
-  .banner-container #github {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/githublogowhite.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #linkedin {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 40px;
-    height: 40px;
-    /* background-image: url("./resources/images/linkedinlogo.png"); */
-    background-image: url("../../resources/images/linkedinlogo.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #instagram {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/instragramlogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #youtube {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/youtubelogo2.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #google-play {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/googlePlay3.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-
-  .banner-container #app-store {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../resources/images/appleStore.png");
-    background-size: 100%, 100%;
-    border: none;
-  }
-}
-
-.banner-container #social-media {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.banner-container #social-media2 {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 /* 
  * banner 
  */
-#bannerLink1 {
+#ios-link {
   color: #2f9bff;
   font-style: italic;
   font-weight: 500;
 }
 
-#bannerLink2 {
+#google-play-link {
   color: #02ff74;
   font-style: italic;
   font-weight: 500;
