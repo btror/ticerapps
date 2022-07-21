@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import NavigationBar from "./UI/components/NavigationBar";
 import Banner from "./UI/components/Banner";
@@ -13,25 +13,17 @@ import ContactPage from "./UI/pages/Contact/ContactPage/ContactPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Container>
         <NavigationBar />
         <Banner />
         <Promotion />
 
         <Switch>
-          <Route path="/about">
-            <AboutPage />
-          </Route>
-          <Route path="/apps">
-            <AppsPage />
-          </Route>
-          <Route path="/contact">
-            <ContactPage />
-          </Route>
-          <Route path="/">
-            <HomePage />
-          </Route>
+          <Route path="/about" component={AboutPage} />
+          <Route path="/apps" component={AppsPage} />
+          <Route path="/contact" component={ContactPage} />
+          <Route exact path="/" component={HomePage} />
         </Switch>
 
         <Footer />
