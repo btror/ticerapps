@@ -13,7 +13,7 @@ import ContactPage from "./UI/pages/Contact/ContactPage/ContactPage";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/" hashType="noslash">
       <Container>
         <NavigationBar />
         <Banner />
