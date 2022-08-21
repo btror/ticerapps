@@ -1,0 +1,101 @@
+.apps-content {
+    border-left: 1px solid #698878d5;
+    border-right: 1px solid #698878d5;
+    border-bottom: 1px solid #698878d5;
+    background: white;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 399px) {
+    img {
+      width: 165px;
+      height: 165px;
+      background-size: 100%, 100%;
+      border: 1px solid gray;
+    }
+  }
+  
+  @media only screen and (min-width: 400px) and (max-width: 434px) {
+    img {
+      width: 165px;
+      height: 165px;
+      background-size: 100%, 100%;
+      border: 1px solid gray;
+    }
+  }
+  
+  @media only screen and (min-width: 435px) and (max-width: 565px) {
+    img {
+      width: 165px;
+      height: 165px;
+      background-size: 100%, 100%;
+      border: 1px solid gray;
+    }
+  }
+  
+  @media only screen and (min-width: 566px) and (max-width: 767px) {
+    img {
+      width: 195px;
+      height: 195px;
+      background-size: 100%, 100%;
+      border: 1px solid gray;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    img {
+      width: 195px;
+      height: 195px;
+      background-size: 100%, 100%;
+      border: 1px solid gray;
+    }
+  }
+  
+  .app-title {
+    font-size: 16pt;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .pricing-information {
+    font-style: italic;
+    font-size: 12pt;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .description-header {
+    font-size: 14pt;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 25px;
+  }
+  
+  .description {
+    font-size: 12pt;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .read-more {
+    font-size: 12pt;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 3px;
+    margin-bottom: 25px;
+  }
+  
+  .app-graphic-section {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+  
+  hr{
+    padding: 0px;
+    margin: 0px;
+  }
+  

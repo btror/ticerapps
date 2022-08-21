@@ -1,0 +1,113 @@
+.filter-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 399px) {
+  .filter-button {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 9pt;
+  }
+
+  .filter-button-pressed {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 9pt;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 434px) {
+  .filter-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12pt;
+  }
+
+  .filter-button-pressed {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (min-width: 435px) and (max-width: 565px) {
+  .filter-button {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12pt;
+  }
+
+  .filter-button-pressed {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (min-width: 566px) and (max-width: 767px) {
+  .filter-button {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12pt;
+  }
+
+  .filter-button-pressed {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .filter-button {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 15pt;
+  }
+
+  .filter-button-pressed {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 15pt;
+  }
+}
+
+.filter-button {
+  background-color: rgb(245, 255, 241);
+  color: black;
+  border: 1px solid #4caf50; /* Green */
+}
+
+.filter-button-pressed {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50; /* Green */
+}
+
+.filter-button:hover {
+  background-color: #4caf50;
+  color: white;
+}

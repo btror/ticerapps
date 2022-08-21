@@ -1,0 +1,19 @@
+.navigation-menu {
+  border-left: 1px solid #698878d5;
+  border-right: 1px solid #698878d5;
+  border-bottom: 1px solid #698878d5;
+  background: #046a39a8;
+}
+
+.navigation-menu li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navigation-menu #nav-link {
+  color: rgb(216, 216, 216);
+}
+
+.navigation-menu #navbar-title {
+  color: rgb(216, 216, 216);
+}
