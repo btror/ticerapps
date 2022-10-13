@@ -21,7 +21,7 @@ function App() {
         <Switch>
           <Route path="/apps" component={AppsPage} />
           <Route path="/contact" component={ContactPage} />
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={AppsPage} />
         </Switch>
 
         <Footer />

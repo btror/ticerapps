@@ -10,11 +10,11 @@ function NavigationBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <li>
+          {/* <li>
             <Link to="/" id="nav-link">
               Home
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/apps" id="nav-link">
               Apps
