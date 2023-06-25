@@ -1,6 +1,6 @@
 # ticerapps-v1 (old)
 
-View v1 (old) live at [btror.github.io/ticerapps](btror.github.io/ticerapps/).
+View v1 (old) live at [btror.github.io/ticerapps](https://btror.github.io/ticerapps/).
 
 View v2 (new) live at [ticerapps.com](https://ticerapps.com).
 
