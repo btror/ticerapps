@@ -1,4 +1,4 @@
-import "../ContactPage/ContactPage.css";
+import "./ContactPage.css";
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 

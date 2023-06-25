@@ -6,7 +6,7 @@ import NavigationBar from "./UI/components/NavigationBar";
 import Banner from "./UI/components/Banner";
 import Footer from "./UI/components/Footer";
 import Promotion from "./UI/components/Promotion";
-import HomePage from "./UI/pages/Home/HomePage/HomePage";
+// import HomePage from "./UI/pages/Home/HomePage/HomePage";
 import AppsPage from "./UI/pages/Apps/AppsPage/AppsPage";
 import ContactPage from "./UI/pages/Contact/ContactPage/ContactPage";
 

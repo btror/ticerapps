@@ -1,4 +1,4 @@
-import "../AppsPage/AppsPage.css";
+import "./AppsPage.css";
 import AppsPageApp from "../AppsPageApp/AppsPageApp";
 import AppsPageFilter from "../AppsPageFilter/AppsPageFilter";
 import { getAppLabels } from "../../../labels/CustomLabels";

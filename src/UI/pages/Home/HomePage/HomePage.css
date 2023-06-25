@@ -1,98 +1,98 @@
 /* 
  * Homepage
  */
- .home-content {
-    border-left: 1px solid #698878d5;
-    border-right: 1px solid #698878d5;
-    border-top: 1px solid #698878d5;
-    border-bottom: 1px solid #698878d5;
-    background: white;
-  }
-  
-  .home-content header {
-    font-size: 16pt;
+.home-content {
+  border-left: 1px solid #698878d5;
+  border-right: 1px solid #698878d5;
+  border-top: 1px solid #698878d5;
+  border-bottom: 1px solid #698878d5;
+  background: white;
+}
+
+.home-content header {
+  font-size: 16pt;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+  .home-content img {
+    width: 230px;
+    height: 140px;
+    background-image: url("../../../../resources/images/itemDemo.jpg");
+    background-size: 100%, 100%;
+    border: 1px solid gray;
     margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 40px;
   }
-  
-  @media only screen and (max-width: 400px) {
-    .home-content img {
-      width: 230px;
-      height: 140px;
-      background-image: url("../../../../resources/images/itemDemo.jpg");
-      background-size: 100%, 100%;
-      border: 1px solid gray;
-      margin-left: 16px;
-    }
-  }
-  
-  @media only screen and (min-width: 401px) {
-    .home-content img {
-      width: 280px;
-      height: 190px;
-      background-image: url("../../../../resources/images/itemDemo.jpg");
-      background-size: 100%, 100%;
-      border: 1px solid gray;
-      margin-left: 16px;
-    }
-  }
-  
-  @media only screen and (min-width: 601px) {
-    .home-content img {
-      width: 300px;
-      height: 200px;
-      background-image: url("../../../../resources/images/itemDemo.jpg");
-      background-size: 100%, 100%;
-      border: 1px solid gray;
-      margin-left: 16px;
-    }
-  }
-  
-  @media only screen and (min-width: 700px) {
-    .home-content img {
-      width: 400px;
-      height: 280px;
-      background-image: url("../../../../resources/images/itemDemo.jpg");
-      background-size: 100%, 100%;
-      border: 1px solid gray;
-      margin-left: 16px;
-    }
-  }
-  
-  @media only screen and (min-width: 960px) {
-    .home-content img {
-      width: 400px;
-      height: 280px;
-      background-image: url("../../../../resources/images/itemDemo.jpg");
-      background-size: 100%, 100%;
-      border: 1px solid gray;
-      margin-left: 16px;
-    }
-  }
-  @media only screen and (min-width: 1440px) {
-    .home-content img {
-      width: 400px;
-      height: 280px;
-      background-image: url("../../../../resources/images/itemDemo.jpg");
-      background-size: 100%, 100%;
-      border: 1px solid gray;
-      margin-left: 16px;
-    }
-  }
-  @media only screen and (min-width: 2000px) {
-    .home-content img {
-      width: 400px;
-      height: 280px;
-      background-image: url("../../../../resources/images/itemDemo.jpg");
-      background-size: 100%, 100%;
-      border: 1px solid gray;
-      margin-left: 16px;
-    }
-  }
-  
-  .home-content p {
-    font-size: 13pt;
+}
+
+@media only screen and (min-width: 401px) {
+  .home-content img {
+    width: 280px;
+    height: 190px;
+    background-image: url("../../../../resources/images/itemDemo.jpg");
+    background-size: 100%, 100%;
+    border: 1px solid gray;
     margin-left: 16px;
-    margin-right: 16px;
   }
+}
+
+@media only screen and (min-width: 601px) {
+  .home-content img {
+    width: 300px;
+    height: 200px;
+    background-image: url("../../../../resources/images/itemDemo.jpg");
+    background-size: 100%, 100%;
+    border: 1px solid gray;
+    margin-left: 16px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .home-content img {
+    width: 400px;
+    height: 280px;
+    background-image: url("../../../../resources/images/itemDemo.jpg");
+    background-size: 100%, 100%;
+    border: 1px solid gray;
+    margin-left: 16px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .home-content img {
+    width: 400px;
+    height: 280px;
+    background-image: url("../../../../resources/images/itemDemo.jpg");
+    background-size: 100%, 100%;
+    border: 1px solid gray;
+    margin-left: 16px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .home-content img {
+    width: 400px;
+    height: 280px;
+    background-image: url("../../../../resources/images/itemDemo.jpg");
+    background-size: 100%, 100%;
+    border: 1px solid gray;
+    margin-left: 16px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .home-content img {
+    width: 400px;
+    height: 280px;
+    background-image: url("../../../../resources/images/itemDemo.jpg");
+    background-size: 100%, 100%;
+    border: 1px solid gray;
+    margin-left: 16px;
+  }
+}
+
+.home-content p {
+  font-size: 13pt;
+  margin-left: 16px;
+  margin-right: 16px;
+}

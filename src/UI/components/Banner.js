@@ -1,4 +1,4 @@
-import "../components/Banner.css";
+import "./Banner.css";
 import SocialMedia from "./SocialMedia";
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";

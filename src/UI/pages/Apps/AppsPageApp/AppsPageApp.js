@@ -1,5 +1,5 @@
 import React from "react";
-import "../AppsPageApp/AppsPageApp.css";
+import "./AppsPageApp.css";
 import { Button, Col, Row, Container } from "react-bootstrap";
 
 class AppsPageApp extends React.Component {
